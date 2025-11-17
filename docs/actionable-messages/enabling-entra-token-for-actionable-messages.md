@@ -15,12 +15,12 @@ ms.localizationpriority: high
 <!-- cSpell:ignore vermaanimesh -->
 
 > [!IMPORTANT]
-Actionable Messages (AM) are moving from EAT (External Access Token) to Entra token authentication. Partners using EAT tokens must update their integration to support AAD tokens for requests from the AM service. Starting November 21st 2025 we will **stop** accepting new registrations with EAT (External Access Token).
+> Actionable Messages (AM) are moving from EAT (External Access Token) to Entra token authentication. Partners using EAT tokens must update their integration to support AAD tokens for requests from the AM service. Starting November 21st 2025 we will **stop** accepting new registrations with EAT (External Access Token).
 
 ## Register an app in Azure
 
 > [!NOTE]
-If you already have an app registration in Azure, skip to the next step.
+> If you already have an app registration in Azure, skip to the next step.
 
 1. Sign in to the Microsoft Entra admin center.
 1. If you have access to multiple tenants, use the Settings icon to switch to the desired tenant via **Directories + subscriptions**.
