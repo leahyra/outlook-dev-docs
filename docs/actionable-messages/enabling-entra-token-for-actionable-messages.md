@@ -41,7 +41,7 @@ If you already have an app registration in Azure, skip to the next step.
     - **MsEntra Application ID**
     - **AppIdUri** (auto-generated; must be allowlisted in your app as shown in the next section).
 
-<img src="images/enabling-entra-token-for-actionable-messages/new provider.jpg" alt="New Provider"/>
+<img src="/docs/actionable-messages/images/enabling-entra-token-for-actionable-messages/new provider.jpg" alt="New Provider"/>
 
 - Approval and onboarding of the AM registration remain unchanged.
 
@@ -55,7 +55,7 @@ Steps to create a URI (this is the uri for which access permission will be asked
 Example format:
 `api://auth-am-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
-<img src="images/enabling-entra-token-for-actionable-messages/Enabling AAD Token/expose an API.jpg" alt="Exposing an API"/>
+<img src="/docs/actionable-messages/images/enabling-entra-token-for-actionable-messages/Enabling AAD Token/expose an API.jpg" alt="Exposing an API"/>
 
 - Add the scope for this app under “Add a scope section” (e.g., Global.Test).
 
@@ -67,7 +67,7 @@ Example format:
 - Once the Admin has authorized, consent is for the whole tenant and will not be prompted again.
 - Go to “Add a client application” and authorize Action app id 48af08dc-f6d2-435f-b2a7-069abd99c086 to the scopes created above.
 
-<img src="images/enabling-entra-token-for-actionable-messages/who can consent.png" alt="Who can consent?"/>
+<img src="/docs/actionable-messages/images/enabling-entra-token-for-actionable-messages/who can consent.png" alt="Who can consent?"/>
 
 ## 4. Validation of AAD token
 
@@ -88,25 +88,25 @@ Admins can grant consent using the [oam/admin](https://outlook.office.com/connec
 
 1. Go to the oam/admin page and click the **Consent 3P Apps** button (top right).
 
-<img src="images/enabling-entra-token-for-actionable-messages/consent 3p apps.png" alt="Consent 3P apps"/>
+<img src="/docs/actionable-messages/images/enabling-entra-token-for-actionable-messages/consent 3p apps.png" alt="Consent 3P apps"/>
 
 2. The Admin Consent Dashboard will open, listing all 3P providers. Unconsented apps show an “Approve” button.
 
-<img src="images/enabling-entra-token-for-actionable-messages/am email developer dashboard.png" alt="AM Email Dashboard"/>
+<img src="/docs/actionable-messages/images/enabling-entra-token-for-actionable-messages/am email developer dashboard.png" alt="AM Email Dashboard"/>
 
 3. Click on a provider row to review details.
 4. Click **Approve** to trigger the MSAL consent flow. Sign in and review the requested permissions.
 5. Ensure **Consent on behalf of your organization** is selected for tenant-wide consent.
 6. Upon clicking **Accept** button the consent will be granted, and the Microsoft Entra app will be authorized in your tenant. You will be redirected back to the oam/admin page where the app will appear as **Approved**
 
-<img src="images/enabling-entra-token-for-actionable-messages/permission.png" alt="User permission screen"/>
+<img src="/docs/actionable-messages/images/enabling-entra-token-for-actionable-messages/permission.png" alt="User permission screen"/>
 
 7. If status remains **Approving**, use the Refresh button to update.
 
 8. Use the search bar to find a provider by **Name, Provider ID,** or **Microsoft Entra ID**(AAD)
 
-<img src="images/enabling-entra-token-for-actionable-messages/search-bar.png" alt="Search bar in AM portal"/>
+<img src="/docs/actionable-messages/images/enabling-entra-token-for-actionable-messages/search-bar.png" alt="Search bar in AM portal"/>
 
 9. To remove consent, open Azure Portal > Enterprise Applications, search for the app’s service principal, and delete it in Properties.
 
-<img src="images/enabling-entra-token-for-actionable-messages/Azure-portal.png" alt="Azure portal screen"/>
+<img src="/docs/actionable-messages/images/enabling-entra-token-for-actionable-messages/Azure-portal.png" alt="Azure portal screen"/>
