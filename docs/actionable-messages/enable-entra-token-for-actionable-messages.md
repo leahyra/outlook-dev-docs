@@ -1,5 +1,5 @@
 ---
-title: Enabling Microsoft Entra ID token for Actionable Messages
+title: Enable Microsoft Entra ID token for Actionable Messages
 description: Learn how to enable Microsoft Entra ID tokens for Actionable Messages
 author: vermaanimesh
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.author: vermaanimesh
 ms.localizationpriority: high
 ---
 
-# Enabling entra token for Actionable Messages
+# Enable entra token for Actionable Messages
 
 <!-- cSpell:ignore vermaanimesh -->
 
