@@ -10,12 +10,12 @@ ms.author: vermaanimesh
 ms.localizationpriority: high
 ---
 
-# Enable entra token for Actionable Messages
+# Enable Microsoft Entra ID token for Actionable Messages
 
 <!-- cSpell:ignore vermaanimesh -->
 
 > [!IMPORTANT]
-> Actionable Messages (AM) are moving from EAT (External Access Token) to Entra token authentication. Partners using EAT tokens must update their integration to support AAD tokens for requests from the AM service. Starting November 21st 2025 we will **stop** accepting new registrations with EAT (External Access Token).
+> Actionable Messages (AM) are moving from EAT (External Access Token) to Microsoft Entra ID token authentication. Partners using EAT tokens must update their integration to support AAD tokens for requests from the AM service. Starting November 21st 2025 we will **stop** accepting new registrations with EAT (External Access Token).
 
 ## Register an app in Azure
 
